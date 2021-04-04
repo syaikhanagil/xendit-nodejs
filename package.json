@@ -1,0 +1,26 @@
+{
+  "name": "xendit-nodejs",
+  "version": "1.0.0",
+  "description": "Xendit NodeJS example",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "keywords": [
+    "Xendit",
+    "Payment",
+    "Gateway"
+  ],
+  "author": "Saekhan Agil",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
